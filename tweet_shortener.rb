@@ -28,6 +28,5 @@ def word_substituter(string_tweet)
 
 
 
-end
 
   
