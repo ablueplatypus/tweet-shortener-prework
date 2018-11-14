@@ -46,5 +46,4 @@ def word_substituter(string_tweet)
     else
       tweet
     end
-    shortened_tweet
   end
