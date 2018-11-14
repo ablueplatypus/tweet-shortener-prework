@@ -1,5 +1,5 @@
 def dictionary
- { "hello" => "hi",
+ word_list = { "hello" => "hi",
    "to" => "2",
    "two" => "2",
    "too" => "2",
@@ -16,8 +16,8 @@ def word_substituter(string_tweet)
   tweet_arr = string_tweet.split(" ")
   new_arr = []
     tweet_arr.each do |word|
-      if dictionary.keys.include?(word.downcase)
-        new_arr << dictionary[word.downcase]
+      if word_list.keys.include?(word.downcase)
+        new_arr << word_list[word.downcase]
       else
         new_arr << word
       end
